@@ -1,2 +1,2 @@
 # Garment-Store
- An easier way to shop for your garments in one palce
+ An easier way to shop for your garments in one place

@@ -1,0 +1,26 @@
+{
+  "name": "garment-store",
+  "version": "0.0.1",
+  "description": " An easier way to shop for your garments in one place",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flammy-Tech/Garment-Store.git"
+  },
+  "keywords": [
+    "garment",
+    "garment-store",
+    "store",
+    "online-shop",
+    "shop"
+  ],
+  "author": "Lewis Ng'ang'a",
+  "license": "LGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Flammy-Tech/Garment-Store/issues"
+  },
+  "homepage": "https://github.com/Flammy-Tech/Garment-Store#readme"
+}

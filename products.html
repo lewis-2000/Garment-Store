@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/common.css">
+    <script src="./js/products.js" defer></script>
+    <script src="./js/nav.js"></script>
+    <title>Garment Store - Products</title>
+</head>
+<body>
+    <nav class="rcondensed" id="navbar">
+        <ul>
+            <li class="mobile-link-container">
+                <div class="mobile-link" id="mobile-nav-toggle" onclick="openNav()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </li>
+            <li>Garment <span class="orange">Store</span></li>
+            <li id="cart-toggle"><img src="./assets/bag.svg" alt="Cart Button" onclick="openCart()"></li>
+        </ul>
+
+    </nav>
+
+    <section class="products__container" id="pContainer">
+
+    </section>
+
+    <section id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul>
+            <li class="slogo">Garment <span class="orange">Store</span></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </section>
+
+    <section id="cart" class="cart">
+        <div class="cart__header">
+            <h1 class="rcondensed"> <span class="orange">Cart</span></h1>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeCart()">&times;</a>
+
+        </div>
+
+        <div class="cart__body">
+            <div class="cart__item">
+                <div class="cart-image">
+                    <img src="./assets/products/10547961582846888-2-product.webp" alt="cart item image">
+                </div>
+
+                <div class="cart-description rcondensed">Product Name.</div>
+
+                <div class="cart-price rcondensed">$120</div>
+                <div class="cart-item-number rcondensed">
+                    <label for="item__quantity">Quantity</label>
+                    <select name="item__quantity" id="item__quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="cart__item">
+                <div class="cart-image">
+                    <img src="./assets/products/10547961582846888-2-product.webp" alt="cart item image">
+                </div>
+
+                <div class="cart-description rcondensed">Product Name.</div>
+
+                <div class="cart-price rcondensed">$120</div>
+                <div class="cart-item-number rcondensed">
+                    <label for="item__quantity">Quantity</label>
+                    <select name="item__quantity" id="item__quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="cart__item">
+                <div class="cart-image">
+                    <img src="./assets/products/10547961582846888-2-product.webp" alt="cart item image">
+                </div>
+
+                <div class="cart-description rcondensed">Product Name.</div>
+
+                <div class="cart-price rcondensed">$120</div>
+                <div class="cart-item-number rcondensed">
+                    <label for="item__quantity">Quantity</label>
+                    <select name="item__quantity" id="item__quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="cart__item">
+                <div class="cart-image">
+                    <img src="./assets/products/10547961582846888-2-product.webp" alt="cart item image">
+                </div>
+
+                <div class="cart-description rcondensed">Product Name.</div>
+
+                <div class="cart-price rcondensed">$120</div>
+                <div class="cart-item-number rcondensed">
+                    <label for="item__quantity">Quantity</label>
+                    <select name="item__quantity" id="item__quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="cart__item">
+                <div class="cart-image">
+                    <img src="./assets/products/10547961582846888-2-product.webp" alt="cart item image">
+                </div>
+
+                <div class="cart-description rcondensed">Product Name.</div>
+
+                <div class="cart-price rcondensed">$120</div>
+                <div class="cart-item-number rcondensed">
+                    <label for="item__quantity">Quantity</label>
+                    <select name="item__quantity" id="item__quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="cart__item">
+                <div class="cart-image">
+                    <img src="./assets/products/10547961582846888-2-product.webp" alt="cart item image">
+                </div>
+
+                <div class="cart-description rcondensed">Product Name.</div>
+
+                <div class="cart-price rcondensed">$120</div>
+                <div class="cart-item-number rcondensed">
+                    <label for="item__quantity">Quantity</label>
+                    <select name="item__quantity" id="item__quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="cart__item">
+                <div class="cart-image">
+                    <img src="./assets/products/10547961582846888-2-product.webp" alt="cart item image">
+                </div>
+
+                <div class="cart-description rcondensed">Product Name.</div>
+
+                <div class="cart-price rcondensed">$120</div>
+                <div class="cart-item-number rcondensed">
+                    <label for="item__quantity">Quantity</label>
+                    <select name="item__quantity" id="item__quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="cart__item">
+                <div class="cart-image">
+                    <img src="./assets/products/10547961582846888-2-product.webp" alt="cart item image">
+                </div>
+
+                <div class="cart-description rcondensed">Product Name.</div>
+
+                <div class="cart-price rcondensed">$120</div>
+                <div class="cart-item-number rcondensed">
+                    <label for="item__quantity">Quantity</label>
+                    <select name="item__quantity" id="item__quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="cart__item">
+                <div class="cart-image">
+                    <img src="./assets/products/10547961582846888-2-product.webp" alt="cart item image">
+                </div>
+
+                <div class="cart-description rcondensed">Product Name.</div>
+
+                <div class="cart-price rcondensed">$120</div>
+                <div class="cart-item-number rcondensed">
+                    <label for="item__quantity">Quantity</label>
+                    <select name="item__quantity" id="item__quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="cart__item">
+                <div class="cart-image">
+                    <img src="./assets/products/10547961582846888-2-product.webp" alt="cart item image">
+                </div>
+
+                <div class="cart-description rcondensed">Product Name.</div>
+
+                <div class="cart-price rcondensed">$120</div>
+                <div class="cart-item-number rcondensed">
+                    <label for="item__quantity">Quantity</label>
+                    <select name="item__quantity" id="item__quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="cart__actions rcondensed">
+                 <a href="#" id="clearCart">Clear cart</a>
+                 <a href="#" id="checkout">CheckOut</a>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Nav -->
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "100%";
+        }
+  
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+    <!-- cart -->
+    <script>
+        const mobileToggle =  document.getElementById("mobile-nav-toggle");
+        const cart = document.getElementById("cart");
+
+        function openCart() {
+            mobileToggle.style.visibility = "hidden";
+        //   document.getElementById("cart").style.width = "40%";
+        cart.classList.add("cart-active");
+        console.log("cart is active");
+        console.log(cart.style.width)
+        }
+  
+        function closeCart() {
+            mobileToggle.style.visibility = "visible";
+        //   document.getElementById("cart").style.width = "0";
+          cart.classList.remove("cart-active");
+          console.log("cart is inactive");
+          console.log(cart.style.width)
+
+        }
+    </script>
+
+
+</body>
+</html>
